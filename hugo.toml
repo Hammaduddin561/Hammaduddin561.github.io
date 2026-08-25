@@ -1,0 +1,34 @@
+﻿baseURL = "https://Hammaduddin561.github.io/"
+title = "Hammaduddin"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+pygmentsStyle = "monokai"
+
+[params]
+  footer = "Md Hammaduddin"
+  description = "Open Source Developer & LFX Mentee"
+  ShowBackToTopButton = true
+  avatarURL = "https://avatars.githubusercontent.com/u/104193510?v=4"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "book"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "GitHub"
+    pre = "github"
+    url = "https://github.com/Hammaduddin561"
+    weight = 3
