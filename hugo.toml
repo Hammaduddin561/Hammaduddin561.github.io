@@ -12,7 +12,8 @@ pygmentsStyle = "monokai"
   footer = "Md Hammaduddin"
   description = "Open Source Developer & LFX Mentee"
   ShowBackToTopButton = true
-  avatarURL = "https://avatars.githubusercontent.com/u/104193510?v=4"
+  avatarURL = "/images/avatar.png"
+  avatarSize = "size-m"
 
 [menu]
   [[menu.main]]
@@ -28,7 +29,13 @@ pygmentsStyle = "monokai"
     weight = 2
 
   [[menu.main]]
+    name = "LFX Report"
+    pre = "file-text"
+    url = "/posts/lfx/lfx_final/"
+    weight = 3
+
+  [[menu.main]]
     name = "GitHub"
     pre = "github"
     url = "https://github.com/Hammaduddin561"
-    weight = 3
+    weight = 4
