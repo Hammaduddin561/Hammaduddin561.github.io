@@ -12,7 +12,7 @@ pygmentsStyle = "monokai"
   footer = "Md Hammaduddin"
   description = "Open Source Developer & LFX Mentee"
   ShowBackToTopButton = true
-  avatarURL = "https://raw.githubusercontent.com/Hammaduddin561/Hammaduddin561.github.io/main/static/images/avatar.png"
+  avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
 
 [menu]
