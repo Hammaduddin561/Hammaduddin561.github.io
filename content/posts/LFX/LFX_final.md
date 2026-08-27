@@ -4,6 +4,7 @@ date: 2026-08-25
 author: "Md Hammaduddin"
 tags: ["LFX", "Linux Foundation", "Magma Core", "5G", "Open Source", "TypeScript", "C++"]
 description: "A summary of my journey, technical contributions, bug fixes, and learnings as a Linux Foundation LFX Mentee on the Magma Core project."
+type: "post"
 ---
 
 # LFX Mentorship 2026: Final Report — Magma Core

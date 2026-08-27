@@ -14,28 +14,43 @@ pygmentsStyle = "monokai"
   ShowBackToTopButton = true
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
+  showPostsOnHomePage = "recent"
+  numberPostsOnHomePage = 5
+  socialIcons = [
+    {name = "github", url = "https://github.com/Hammaduddin561"},
+    {name = "email", url = "mailto:hammaduddin57@gmail.com"}
+  ]
 
 [menu]
   [[menu.main]]
     name = "Home"
-    pre = "home"
+    pre = "<span data-feather='home'></span>"
     url = "/"
     weight = 1
 
   [[menu.main]]
     name = "Posts"
-    pre = "book"
+    pre = "<span data-feather='book'></span>"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "LFX Report"
-    pre = "file-text"
-    url = "/posts/lfx/lfx_final/"
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/Hammaduddin561"
     weight = 3
 
   [[menu.main]]
-    name = "GitHub"
-    pre = "github"
-    url = "https://github.com/Hammaduddin561"
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
     weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
