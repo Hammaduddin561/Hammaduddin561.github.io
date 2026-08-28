@@ -17,7 +17,7 @@ pygmentsStyle = "monokai"
   showPostsOnHomePage = "recent"
   numberPostsOnHomePage = 5
   socialIcons = [
-    {name = "linkedin", url = "https://www.linkedin.com/in/hammaduddin57/"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/md-hammaduddin/"},
     {name = "github", url = "https://github.com/Hammaduddin561"},
     {name = "email", url = "mailto:hammaduddin57@gmail.com"}
   ]
