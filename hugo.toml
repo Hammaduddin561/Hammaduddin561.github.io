@@ -10,13 +10,14 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Md Hammaduddin"
-  description = "Open Source Developer & LFX Mentee"
+  description = "Open Source Developer"
   ShowBackToTopButton = true
   avatarURL = "/images/avatar.jpg"
   avatarSize = "size-m"
   showPostsOnHomePage = "recent"
   numberPostsOnHomePage = 5
   socialIcons = [
+    {name = "linkedin", url = "https://www.linkedin.com/in/hammaduddin57/"},
     {name = "github", url = "https://github.com/Hammaduddin561"},
     {name = "email", url = "mailto:hammaduddin57@gmail.com"}
   ]
